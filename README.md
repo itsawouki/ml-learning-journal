@@ -2,8 +2,7 @@
 
 Personal notebooks from learning machine learning fundamentals from scratch,
 starting with simple linear regression. Practice datasets under `datasets/`
-are synthetic (generated for practice, not scraped real-world data) — the
-generator scripts are included for transparency.
+are synthetic (generated for practice, not scraped real-world data)
 
 ## Progress
 
@@ -23,16 +22,3 @@ generator scripts are included for transparency.
 - [x] Simple linear regression
 - [x] Multi-linear regression
 - [ ] Classification (logistic regression)
-- [ ] Image data fundamentals
-- [ ] Neural network fundamentals
-- [ ] CNNs
-- [ ] Final goal: animal detection AI
-
-## Notes to self
-
-- Name variables by what they represent, not just `x`/`y`/`train`/`test` reused
-  everywhere — a near-identical variable name caused a real bug (wrong R² from
-  a typo'd `ss_tot` calculation) that took a while to track down.
-- Always verify a suspicious result before trusting it — several bugs here
-  were caught specifically because a number looked "too good" or didn't match
-  intuition, and turned out to be a real error, not luck.
