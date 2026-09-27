@@ -17,8 +17,11 @@ are synthetic (generated for practice, not scraped real-world data)
 - `02-youtube-views-capstone.ipynb` — Full pipeline: exploration, feature selection,
   simple vs multi-linear comparison, testing "noise" variables
 
+### 03 — Non-Linear Regression
+- `01- CAR_STOPPING_DISTANCE_M.ipynb` — first non-linear model(Speed_kmh vs Stopping distance)
 ## Status
 
 - [x] Simple linear regression
 - [x] Multi-linear regression
+- [x] Non-linear regression 
 - [ ] Classification (logistic regression)
